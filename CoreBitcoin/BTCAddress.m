@@ -7,8 +7,8 @@
 
 enum
 {
-    BTCPublicKeyAddressVersion         = 0,
-    BTCPrivateKeyAddressVersion        = 128,
+    BTCPublicKeyAddressVersion         = 61,
+    BTCPrivateKeyAddressVersion        = 189,
     BTCScriptHashAddressVersion        = 5,
     BTCPublicKeyAddressVersionTestnet  = 111,
     BTCPrivateKeyAddressVersionTestnet = 239,

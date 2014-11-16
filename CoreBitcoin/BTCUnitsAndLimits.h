@@ -25,10 +25,10 @@ static const unsigned int BTC_MAX_BLOCK_SIZE = 1000000;
 static const unsigned int BTC_MAX_BLOCK_SIGOPS = BTC_MAX_BLOCK_SIZE/50;
 
 // No amount larger than this (in satoshi) is valid
-static const BTCSatoshi BTC_MAX_MONEY = 21000000 * BTCCoin;
+static const BTCSatoshi BTC_MAX_MONEY = 92233720368 * BTCCoin;
 
 // Coinbase transaction outputs can only be spent after this number of new blocks
-static const int BTC_COINBASE_MATURITY = 100;
+static const int BTC_COINBASE_MATURITY = 30;
 
 // Threshold for -[BTCTransaction lockTime]: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int BTC_LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC (max block number is in year ≈11521)

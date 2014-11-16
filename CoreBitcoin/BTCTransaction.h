@@ -5,7 +5,7 @@
 #import "BTCSignatureHashType.h"
 
 static const uint32_t BTCTransactionCurrentVersion = 1;
-static const BTCSatoshi BTCTransactionDefaultFeeRate = 10000; // 10K satoshis per 1000 bytes
+static const BTCSatoshi BTCTransactionDefaultFeeRate = 100000; // 10K satoshis per 1000 bytes
 
 
 @class BTCScript;
