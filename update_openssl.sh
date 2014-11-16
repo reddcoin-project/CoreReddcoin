@@ -6,12 +6,12 @@
 
 #set -x
 
-OPENSSL_VERSION="1.0.1e"
+OPENSSL_VERSION="1.0.1j"
 
 DEVELOPER="/Applications/Xcode.app/Contents/Developer"
 
-IOS_SDK_VERSION="8.0"
-OSX_SDK_VERSION="10.9"
+IOS_SDK_VERSION="8.1"
+OSX_SDK_VERSION="10.10"
 
 WORKDIR=${PWD}
 

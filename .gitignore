@@ -5,6 +5,7 @@ openssl/lib
 openssl/lib/engines
 openssl/lib/pkgconfig
 openssl/ssl
+openssl.bak
 .DS_Store
 */build/*
 *.pbxuser
