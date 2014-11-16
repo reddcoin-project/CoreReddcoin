@@ -1,6 +1,6 @@
 // CoreBitcoin by Oleg Andreev <oleganza@gmail.com>, WTFPL.
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface BTCQRCode : NSObject
 
